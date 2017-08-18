@@ -2,7 +2,12 @@
   "name": "socket-chat-example",
   "version": "0.0.1",
   "description": "my first socket.io app",
+  "scripts": {
+    "start": "node",
+    "local": "nodemon"
+  },
   "dependencies": {
-    "express": "^4.15.2"
+    "express": "^4.15.2",
+    "nodemon": "^1.11.0"
   }
 }
